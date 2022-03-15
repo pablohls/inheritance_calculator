@@ -21,10 +21,10 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
+        title: 'Calculadora Herança',
+        theme: ThemeData(primaryColor: Colors.black
+            //primarySwatch: Colors.blue,
+            ),
         home: const HomePage(),
       ),
     );
